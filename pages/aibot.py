@@ -48,7 +48,7 @@ chain = ConversationChain(
     memory=st.session_state.memory
 )
 
-input = st.chat_input("和你的女友说点话吧")
+input = st.chat_input("和你的男友说点话吧")
 if input:
     with st.chat_message("user"):
         st.write(input)
